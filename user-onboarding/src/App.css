@@ -1,0 +1,78 @@
+body {
+  background-color: rgb(59, 244, 114);
+}
+
+h1 {
+  width: 33%;
+  margin: 30px auto;
+  text-align: center;
+  color: white;
+}
+
+form {
+  padding: 20px;
+  border: 1px solid rgb(189, 189, 189);
+  border-radius: 5px;
+  /* box-shadow: 3px 3px 7px #dfdfdf; */
+  color: rgb(79, 79, 79);
+  background-color: white;
+}
+
+label {
+  display: block;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+/* input[type="checkbox"], */
+textarea,
+select {
+  display: block;
+  width: 95%;
+  margin: 10px 0;
+  outline: none;
+  background-color: rgb(245, 243, 243);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid rgb(196, 196, 196);
+  padding: 0 10px;
+  font-size: 16px;
+}
+
+select {
+  color: rgb(79, 79, 79);
+  background-color: white;
+  height: 25px;
+  font-size: 16px;
+  height: 30px;
+}
+
+textarea {
+  border-radius: 5px;
+  border: 1px solid rgb(196, 196, 196);
+  height: 50px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 30px;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+}
+
+button:disabled {
+  background-color: rgb(82, 82, 225);
+}
+
+.error {
+  color: red;
+}
